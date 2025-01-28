@@ -24,18 +24,18 @@ public class index {
             }
         }
 
-        while(p2<arr2.length){
-            res[p3]=arr2[p2];
+        while (p2 < arr2.length) {
+            res[p3] = arr2[p2];
             p2++;
             p3++;
         }
-        while(p1<arr1.length){
-            res[p3]=arr2[p1];
+        while (p1 < arr1.length) {
+            res[p3] = arr2[p1];
             p1++;
             p3++;
         }
 
-        for(int i = 0; i < res.length; i++){
+        for (int i = 0; i < res.length; i++) {
             System.out.print(res[i] + " ");
         }
     }
